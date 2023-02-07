@@ -90,3 +90,8 @@ main>.container {
 .brand-icon{
     color: var(--secondary-color);
 }
+
+#monthlyPayments {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
