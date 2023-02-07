@@ -1,0 +1,92 @@
+:root {
+    --primary-color: #56b4cb;
+    /* --secondary-color: #ff9f06; */
+    --secondary-color: #F0DB4F;
+    --dark: #1d1629;
+    --dark-alt: #322B3E;
+    --light: #f6e9ff;
+}
+
+body {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+nav {
+    background-color: var(--dark-alt);
+}
+
+footer {
+    background-color: var(--dark-alt);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--primary-color);
+}
+
+code[class*="language-"],
+pre[class*="language-"] {
+white-space: pre-wrap;
+word-break: break-all;
+word-wrap: break-word;
+}
+
+.code-title {
+    border-bottom: 1px solid var(--light);
+}
+
+.code .col-lg-4 {
+    margin: .5rem 0;
+}
+
+main>.container {
+    padding: 60px 15px 0;
+    margin-bottom: 5rem;
+}
+.sticky-footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.copy {
+    opacity: .8;
+    font-size: .8rem;
+}
+
+.footer-social {
+    font-size: 2rem;
+    color: var(--light);
+    opacity: .8;
+}
+
+.footer-social:hover {
+    color: var(--secondary-color);
+    opacity: 1;
+}
+
+.navbar-brand > img {
+    position: relative;
+    top: -.2rem;
+    margin-right: .2rem;
+}
+
+.checklist > li i {
+    color: var(--secondary-color);
+}
+
+.btn-outline-light {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-outline-light:hover {
+    background-color: var(--light);
+    border-color: var(--light);
+    color: var(--dark);
+}
+
+.brand-icon{
+    color: var(--secondary-color);
+}
